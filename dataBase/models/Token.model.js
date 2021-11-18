@@ -13,11 +13,9 @@ Token.init(
     value: {
       type: Sequelize.STRING,
       allowNull: false,
-    //   defaultValue:nanoid(128)
     },
   },
   { sequelize: sequelize, modelName: "token" }
 );
 
 module.exports = Token;
-
